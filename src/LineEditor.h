@@ -1,7 +1,3 @@
-//
-// Created by Jay on 2023-01-21.
-//
-
 #ifndef ASSIGNMENT1_LINEEDITOR_H
 #define ASSIGNMENT1_LINEEDITOR_H
 
@@ -17,8 +13,9 @@ private:
 public:
     explicit LineEditor(const std::string& file_name);
     LineEditor(LinkedList& list, const std::string& file_name);
+    virtual ~LineEditor();
     static void run(const std::string& file_name);
-};
 
+};
 
 #endif //ASSIGNMENT1_LINEEDITOR_H

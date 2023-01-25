@@ -40,7 +40,6 @@ void LineEditor::run(const std::string& file_name) {
         if(!in_file.is_open()){
             std::fstream new_file;
             new_file.open(file_name, std::ios::out);
-            //new_file << " ";
             new_file.close();
             new_file_was_made = true;
             in_file.open(file_name);

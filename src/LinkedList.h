@@ -1,7 +1,3 @@
-//
-// Created by Jay on 2023-01-21.
-//
-
 #ifndef ASSIGNMENT1_LINKEDLIST_H
 #define ASSIGNMENT1_LINKEDLIST_H
 
@@ -11,14 +7,14 @@
 
 class LinkedListNode {
 public:
-    std::string m_data {-1};
-    LinkedListNode* m_next {nullptr};
+    std::string m_data;
+    LinkedListNode* m_next;
 };
 
 class LinkedList {
     friend class LineEditor;
 private:
-    LinkedListNode* m_start {nullptr};
+    LinkedListNode* m_start;
 public:
     LinkedList();
     virtual ~LinkedList();
