@@ -13,7 +13,6 @@ private:
 public:
     explicit LineEditor(const std::string& file_name);
     LineEditor(LinkedList& list, const std::string& file_name);
-    virtual ~LineEditor();
     static void run(const std::string& file_name);
 
 };
