@@ -26,7 +26,7 @@ LineEditor::LineEditor(LinkedList& list, const std::string& file_name) {
 // it will then allow the user to edit the file line by line and save it
 void LineEditor::run(const std::string& file_name) {
     LinkedList list;
-    std::stringstream();
+
     std::ifstream in_file;
     std::ofstream out_file;
     std::string result, text;
